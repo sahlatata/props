@@ -6,9 +6,9 @@ return(
 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">   
 {children}
 <div className="col-lg-6">
-<h1 className=" display-5 fw-bold lh-1 mb-3">My name is {fullName}</h1>
+<h1  style={{color: "blue"}} className=" display-5 fw-bold lh-1 mb-3">My name is {fullName}</h1>
  <p className="lead">My bio is : {bio}</p>
- <h3>My profession is : {profession}</h3>
+ <h3 style={{color: "blue"}}>My profession is : {profession}</h3>
  <br/>
  <button   className="btn btn-primary btn-lg px-4 me-md-2" onClick={ ()=>handleName(fullName)}>  REVEILLER </button>
 </div>
